@@ -1,6 +1,8 @@
 require 'spec_helper'
 
 describe AutocompleteController do
+  include AdminLoginControllerHelper
+
   let!(:tag){ Factory(:tag, :name => 'Music') }
   
   describe 'get #index' do

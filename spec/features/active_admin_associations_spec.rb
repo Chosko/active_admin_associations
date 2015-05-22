@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe 'ActiveAdmin Association interface' do
+  include AdminLoginIntegrationHelper
   let!(:post){ Factory(:post) }
   let!(:tag){ Factory(:tag) }
 

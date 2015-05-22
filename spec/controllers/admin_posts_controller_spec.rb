@@ -1,6 +1,7 @@
 require 'spec_helper'
 
-describe Admin::PostsController do
+describe "Admin::PostsController" do
+
   let!(:post){ Factory(:post) }
   let!(:tag1){ Factory(:tag) }
   let!(:tag2){ Factory(:tag) }
